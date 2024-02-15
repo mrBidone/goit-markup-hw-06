@@ -106,8 +106,6 @@ body {
 .page-nav {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-nav .logo {
@@ -122,7 +120,10 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+.nav-list-item {
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
 .nav-list-item:not(:last-child){
         margin-right: 40px;
 }
