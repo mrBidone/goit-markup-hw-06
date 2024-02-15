@@ -98,8 +98,6 @@ body {
 /* Section Header */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .page-header .container {
     display: flex;    
@@ -108,6 +106,8 @@ body {
 .page-nav {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-nav .logo {
@@ -138,6 +138,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-list {
@@ -254,7 +256,7 @@ body {
 .portfolio-list-item .card-bottom {
     border: 1px solid #e7e9fc;
     border-top: 0;
-    padding-left:32px 16px;
+    padding: 32px 16px;
 }
 
  /* Footer */
