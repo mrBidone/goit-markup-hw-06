@@ -161,10 +161,17 @@ body {
 /* Section Hero */
 
 .hero {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+
+    background-image: linear-gradient(to top,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/hero/img-hero.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-title {
