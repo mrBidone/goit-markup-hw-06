@@ -125,6 +125,16 @@ body {
         margin-right: 40px;
 }
 
+.active-page::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    position: absolute;
+}
+
 .nav-link {
     padding-top: 24px;
     padding-bottom: 24px;
