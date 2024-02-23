@@ -123,21 +123,31 @@ body {
 
 .nav-list-item:not(:last-child){
         margin-right: 40px;
-}
-
-.active-page::after {
-    display: block;
-    content: "";
-    width: 48px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404bbf;
-    position: absolute;
+        postion: absolute;
 }
 
 .nav-link {
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+    
+}
+.current-page {
+    color: #404bbf;
+    position: relative;
+        
+
+}
+.current-page::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    position: absolute;
 }
 
 .nav-link:hover,
