@@ -380,7 +380,11 @@ body {
 
  .footer-flexcontainer {
     display: flex;
-    column-gap: 120px;
+    align-items: baseline;
+ }
+
+ .footer-logo-container {
+    margin-right: 120px;
  }
 
  .footer .logo {
@@ -396,16 +400,22 @@ body {
     max-width: 264px;
  }
 
- .social-media-title {
+ .social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
     margin-bottom: 16px;
  }
 
-.social-media-container .social-list {
+.footer-social-container .social-list {
     margin: 0;
+    gap: 24px;
 }
 
-.social-media-container .social-link:hover,
-.social-media-container .social-link:focus {
+.footer-social-container .social-link:hover,
+.footer-social-container .social-link:focus {
     background-color: #31D0AA;
 }
 
