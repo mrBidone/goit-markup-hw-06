@@ -77,3 +77,50 @@ margin-right:
 «B15» Для всіх секцій використовується один клас .section, якому задані верхні і нижні падінги по 120px, що відсувають контент всередину секції.
 
 «B16» У картках секції Our Portfolio є рамка (властивість border), але тільки у нижній частині картки.
+
+<!-- =============================== -->
+
+Іконки у другій секції у якості псевдоелементів:
+
+.benefits-list-item::before {
+display: block;
+content: " ";
+height: 112px;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+background-color: #f4f4fd;
+margin-bottom: 8px;
+
+}
+
+.icon-antenna::before {
+content: " ";
+display: block;
+background-image: url(../images/svg/icon-antenna.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.icon-clock::before {
+content: " ";
+display: block;
+background-image: url(../images/svg/icon-clock.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.icon-diagram::before {
+content: " ";
+display: block;
+background-image: url(../images/svg/icon-diagram.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.icon-astronaut::before {
+content: " ";
+display: block;
+background-image: url(../images/svg/icon-astronaut.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
