@@ -559,8 +559,9 @@ display: flex;
         color: rgba(46, 47, 66, 0.4);
 }
 
+/* КАСТОМНЫЙ ЧЕКБОКС! START */
 .checkbox-label {
-    display: flex;
+ display: flex;
     align-items: center;
     font-size: 12px;
     line-height: 1.16667;
@@ -571,19 +572,33 @@ display: flex;
 }
 
 .privacy-checkbox {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-    border: 1px solid #8e8f99;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+    appearance: none;
+    position: absolute;    
 }
 
-.privacy-checkbox:checked +checkbox-label {
-    background-color: red;
-} 
+.checkbox-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #8e8f99;
+    border-radius: 2px;
+    margin-right: 8px;
+}
 
+.privacy-checkbox:checked + .checkbox-icon {
+    background-image: url(../images/svg/select.svg);
+    border-color: transparent;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+/* КАСТОМНЫЙ ЧЕКБОКС END */
 
 .privacy-link {
     line-height: 1.33;
     text-decoration: underline;
     color: #4d5ae5;
 }
+
