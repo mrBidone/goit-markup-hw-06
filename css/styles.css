@@ -423,18 +423,19 @@ body {
     margin-left: 80px;
 }
 
-.footer-subscribe-label {
+.footer-subscribe-title {
     display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 16px;
 }
 
 .footer-input-wrapper {
     display: flex;
+    gap: 24px;
 
 }
 
@@ -444,10 +445,13 @@ body {
     height: 40px;
     border: 1px solid #fff;
     border-radius: 4px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
-    padding: 8px 16px;
-    margin-right: 24px;
+    padding-left: 16px;
+    color: #ffffff;
 }
 
 .footer-subscribe::placeholder {
@@ -455,15 +459,17 @@ body {
         font-size: 12px;
         line-height: 2;
         letter-spacing: 0.04em;
-        color: #fff;
+        color: #ffffff;
 }
 
 .footer-button {
     display: flex;
     min-width: 165px;
-    max-height: 40px;
+    height: 40px;
     padding: 8px 24px;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-submit-icon {
