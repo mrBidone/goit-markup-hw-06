@@ -198,6 +198,7 @@ body {
     max-width: 320px;
     padding: 72px 0;
     margin: 0 auto;
+    background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/img-hero-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,7 +240,6 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     text-align: center;
     color: #fff;
     margin: 0 auto 72px auto;
@@ -260,6 +260,34 @@ body {
     margin: 0 auto;
     border: none;
 }
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        max-width: 768px;
+        padding: 112px 0;
+    }
+
+    .hero-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+    }
+    
+}
+
+@media only screen and (min-width: 1158px) {
+    .hero {
+        max-width: 1440px;
+        background-color: #2e2f42;
+        padding: 188px 0;
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+}
+
 
 /* =========== Benefits =========== */
 
