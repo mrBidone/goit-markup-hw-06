@@ -1064,7 +1064,9 @@ body {
     }
 
     .mob-nav-link:hover,
-    .mob-nav-link:focus {
+    .mob-nav-link:focus,
+    .mob-contacts-link:hover,
+    .mob-contacts-link:focus {
         color: #404bbf;
     }
 
