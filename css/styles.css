@@ -880,7 +880,7 @@ body {
 .modal-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 256px;
+    width: 100%;
     height: 40px;
     margin-top: 4px;
     padding-left: 38px;
@@ -991,4 +991,13 @@ body {
     line-height: 1.33;
     text-decoration: underline;
     color: #4d5ae5;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-window {
+        width: 408px;
+        min-height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
+    
 }
