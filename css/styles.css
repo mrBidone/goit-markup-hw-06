@@ -102,6 +102,7 @@ body {
     background-color: transparent;
     padding: 0;
     fill: #2f2f37;
+    cursor: pointer;
 }
 
 .nav-list,
@@ -272,6 +273,7 @@ body {
     margin: 0 auto;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .button:hover,
@@ -793,9 +795,10 @@ body {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
+.is-hidden {
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
 }
 
 .modal-window {
@@ -1022,9 +1025,15 @@ body {
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .mob-menu.is-open {
+    /* .mob-menu.is-open {
         opacity: 1;
         visibility: visible;
+    } */
+
+    .is-hidden {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
     }
 
     .mob-menu-container {
